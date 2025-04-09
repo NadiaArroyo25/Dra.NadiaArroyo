@@ -1,0 +1,17 @@
+Estas son imágenes de marcador de posición. En un sitio real, reemplazaría estas con imágenes reales:
+
+- logo.png: Logo profesional de la Dra. Nadia Arroyo
+- doctor-profile.jpg: Foto profesional de la Dra. Nadia Arroyo
+- hero-bg.jpg: Imagen para la sección de armonización orofacial (banner principal)
+- hero-bg2.jpg: Imagen para la sección de estética dental (banner secundario)
+- patient-care.jpg: Imagen de atención al paciente
+- service1.jpg: Imagen representativa de armonización orofacial
+- service2.jpg: Imagen representativa de estética dental
+- service3.jpg: Imagen representativa de tratamientos especializados
+- testimonial1.jpg, testimonial2.jpg, testimonial3.jpg: Fotos de pacientes para testimonios
+
+Para un sitio real, asegúrese de:
+1. Tener permiso para usar todas las imágenes (especialmente fotos de pacientes)
+2. Optimizar las imágenes para uso web (tamaño y compresión adecuados)
+3. Usar fotografías profesionales que reflejen la calidad de su práctica
+4. Incluir "antes y después" si tiene el consentimiento de los pacientes 
