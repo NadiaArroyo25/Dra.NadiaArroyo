@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Dra. Nadia Arroyo</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logo.png" alt="Dra. Nadia Arroyo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="testimonios.html">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <div class="main-content">
+        <!-- Encabezado de la página -->
+        <section class="py-5" style="background-color: var(--accent-color);">
+            <div class="container">
+                <h1 class="text-center text-white mb-4">Contáctanos</h1>
+                <p class="text-center text-white">Estamos aquí para responder a todas tus consultas</p>
+            </div>
+        </section>
+
+        <!-- Sección de Información de Contacto y Formulario -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <!-- Información de Contacto -->
+                    <div class="col-lg-5 mb-4">
+                        <div class="card border-0 shadow h-100">
+                            <div class="card-body p-4">
+                                <h2 class="h4 mb-4">Información de Contacto</h2>
+                                
+                                <div class="d-flex mb-4">
+                                    <div class="icon-box me-3">
+                                        <i class="fas fa-map-marker-alt text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="h6 mb-1">Dirección</h3>
+                                        <p class="mb-0">Av. Principal 123, Col. Centro, Ciudad</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex mb-4">
+                                    <div class="icon-box me-3">
+                                        <i class="fas fa-phone text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="h6 mb-1">Teléfono</h3>
+                                        <p class="mb-0">(123) 456-7890</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex mb-4">
+                                    <div class="icon-box me-3">
+                                        <i class="fas fa-envelope text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="h6 mb-1">Email</h3>
+                                        <p class="mb-0">contacto@dranadiarroyo.com</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex">
+                                    <div class="icon-box me-3">
+                                        <i class="fas fa-clock text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="h6 mb-1">Horario de Atención</h3>
+                                        <p class="mb-0">Lunes a Viernes: 9:00 AM - 7:00 PM<br>
+                                        Sábados: 9:00 AM - 2:00 PM<br>
+                                        Domingos: Cerrado</p>
+                                    </div>
+                                </div>
+                                
+                                <hr class="my-4">
+                                
+                                <h3 class="h6 mb-3">Síguenos en Redes Sociales</h3>
+                                <div class="social-icons">
+                                    <a href="https://facebook.com/dranadiarroyo" target="_blank" class="me-2 btn btn-outline-primary btn-sm">
+                                        <i class="fab fa-facebook-f"></i> Facebook
+                                    </a>
+                                    <a href="https://instagram.com/dra.nadiaarroyo" target="_blank" class="me-2 btn btn-outline-primary btn-sm">
+                                        <i class="fab fa-instagram"></i> Instagram
+                                    </a>
+                                    <a href="https://tiktok.com/@dra.nadiaarroyo" target="_blank" class="btn btn-outline-primary btn-sm">
+                                        <i class="fab fa-tiktok"></i> TikTok
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Formulario de Contacto -->
+                    <div class="col-lg-7 mb-4">
+                        <div class="card border-0 shadow h-100">
+                            <div class="card-body p-4">
+                                <h2 class="h4 mb-4">Envíanos un Mensaje</h2>
+                                
+                                <form id="contactForm">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="name" class="form-label">Nombre completo</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="email" class="form-label">Correo electrónico</label>
+                                            <input type="email" class="form-control" id="email" placeholder="tucorreo@ejemplo.com" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="phone" class="form-label">Teléfono</label>
+                                            <input type="tel" class="form-control" id="phone" placeholder="Tu número de teléfono">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="service" class="form-label">Tratamiento de interés</label>
+                                            <select class="form-select" id="service">
+                                                <option selected disabled value="">Selecciona un tratamiento</option>
+                                                <option value="armonizacion">Armonización Orofacial</option>
+                                                <option value="estetica">Estética Dental</option>
+                                                <option value="especializado">Tratamiento Especializado</option>
+                                                <option value="otro">Otro</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="message" class="form-label">Mensaje</label>
+                                            <textarea class="form-control" id="message" rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="privacyPolicy" required>
+                                                <label class="form-check-label small" for="privacyPolicy">
+                                                    He leído y acepto la <a href="#" data-bs-toggle="modal" data-bs-target="#privacyModal">política de privacidad</a>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 mt-4">
+                                            <button type="submit" class="btn btn-primary btn-lg w-100">Enviar Mensaje</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mapa de Ubicación -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-12 text-center">
+                        <h2>Nuestra Ubicación</h2>
+                        <p class="text-muted">Visítanos en nuestra clínica</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12">
+                        <div class="map-container shadow">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.661543722049!2d-99.16985088509439!3d19.427023546029434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sAv.%20Paseo%20de%20la%20Reforma%2C%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1623456789012!5m2!1ses-419!2smx" 
+                                width="100%" 
+                                height="450" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Preguntas Frecuentes -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-12 text-center">
+                        <h2>Preguntas Frecuentes</h2>
+                        <p class="text-muted">Respuestas a las dudas más comunes de nuestros pacientes</p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="accordion" id="faqAccordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        ¿Qué es la armonización orofacial?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        La armonización orofacial es un conjunto de procedimientos estéticos mínimamente invasivos que buscan mejorar la armonía del rostro y la sonrisa. Incluye tratamientos como la aplicación de toxina botulínica, ácido hialurónico, entre otros, para mejorar la estética facial.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ¿Es dolorosa la aplicación de toxina botulínica?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        La aplicación de toxina botulínica es un procedimiento mínimamente invasivo que causa muy poco dolor. Se utiliza una aguja muy fina y la sensación es similar a un pequeño pinchazo. Además, la duración del procedimiento es muy corta, generalmente unos minutos.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        ¿Cuánto tiempo duran los resultados de los tratamientos?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        La duración de los resultados varía según el tratamiento. La toxina botulínica suele durar entre 4-6 meses, mientras que el ácido hialurónico puede durar de 6-18 meses dependiendo del área tratada y el tipo de producto utilizado. Las carillas dentales pueden durar entre 10-15 años con el cuidado adecuado.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        ¿Aceptan tarjetas de crédito o tienen planes de financiamiento?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Sí, aceptamos todas las tarjetas de crédito y débito, además de contar con planes de financiamiento a meses sin intereses. También ofrecemos descuentos por pago de contado en tratamientos específicos. Para más información sobre nuestras opciones de pago, te invitamos a contactarnos directamente.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        ¿Necesito agendar una cita para una consulta?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Sí, es necesario agendar una cita previa para asegurar que podamos atenderte de manera personalizada y sin tiempos de espera prolongados. Puedes agendar tu cita llamando al teléfono indicado en esta página, a través de nuestro WhatsApp o completando el formulario de contacto.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal de Política de Privacidad -->
+        <div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="privacyModalLabel">Política de Privacidad</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>1. Información que Recopilamos</h6>
+                        <p>Cuando usted completa nuestro formulario de contacto, recopilamos la siguiente información personal:</p>
+                        <ul>
+                            <li>Nombre completo</li>
+                            <li>Dirección de correo electrónico</li>
+                            <li>Número de teléfono</li>
+                            <li>Información relacionada con el tratamiento de interés</li>
+                            <li>Cualquier otra información que usted decida compartir en el campo de mensaje</li>
+                        </ul>
+                        
+                        <h6>2. Uso de la Información</h6>
+                        <p>La información recopilada se utiliza únicamente para los siguientes propósitos:</p>
+                        <ul>
+                            <li>Responder a sus consultas y brindarle información sobre nuestros servicios</li>
+                            <li>Agendar citas y dar seguimiento a su caso</li>
+                            <li>Mejorar nuestros servicios y comunicación con pacientes</li>
+                            <li>Cumplir con requisitos legales y regulatorios</li>
+                        </ul>
+                        
+                        <h6>3. Protección de Datos</h6>
+                        <p>Implementamos medidas de seguridad adecuadas para proteger su información personal contra acceso no autorizado, alteración, divulgación o destrucción.</p>
+                        
+                        <h6>4. No Compartimos Su Información</h6>
+                        <p>No vendemos, comercializamos ni transferimos a terceros su información personal, excepto a proveedores de servicios de confianza que nos ayudan a operar nuestro sitio web y a prestar nuestros servicios, siempre bajo acuerdos de confidencialidad.</p>
+                        
+                        <h6>5. Sus Derechos</h6>
+                        <p>Usted tiene derecho a acceder, corregir o eliminar su información personal. Si desea ejercer estos derechos, por favor contáctenos a través de los medios proporcionados.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Llamada a la Acción WhatsApp -->
+        <section class="py-5 text-center text-white" style="background-color: var(--primary-color);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="mb-3">¿Prefieres contactarnos por WhatsApp?</h2>
+                        <p class="mb-4">Responderemos tus consultas rápidamente y podremos agendar tu cita con mayor facilidad.</p>
+                        <a href="https://wa.me/521234567890?text=Hola,%20me%20gustaría%20agendar%20una%20consulta%20con%20la%20Dra.%20Nadia%20Arroyo" target="_blank" class="btn btn-light btn-lg">
+                            <i class="fab fa-whatsapp me-2"></i>Contactar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Dra. Nadia Arroyo</h5>
+                    <p>Especialista en Armonización Orofacial y Estética Dental</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <p><i class="fas fa-envelope me-2"></i> contacto@dranadiarroyo.com</p>
+                    <p><i class="fas fa-phone me-2"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> Av. Principal 123, Ciudad</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/dranadiarroyo" target="_blank" class="me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/dra.nadiaarroyo" target="_blank" class="me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/dranadiarroyo" target="_blank" class="me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="https://tiktok.com/@dra.nadiaarroyo" target="_blank" class="me-2"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2023 Dra. Nadia Arroyo. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle con Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS personalizado -->
+    <script src="../js/script.js"></script>
+</body>
+</html> 
