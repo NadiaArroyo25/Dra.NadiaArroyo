@@ -1,7 +1,7 @@
 title: Dra. Nadia Arroyo
 description: Especialista en Armonización Orofacial y Estética Dental
-baseurl: "/Dra.NadiaArroyo"
-url: ""
+baseurl: "/Dra.NadiaArroyo" # Para GitHub Pages
+url: "https://nadiaarroyo.github.io"
 
 # Build settings
 markdown: kramdown
