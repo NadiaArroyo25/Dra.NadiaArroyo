@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Nadia Arroyo - Especialista en Armonización Orofacial y Estética Dental</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Animate.css para animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Dra. Nadia Arroyo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/quienes_somos.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/testimonios.html">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <div class="main-content">
+        <!-- Sección Hero con Carrusel -->
+        <section id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/hero-bg.jpg" class="d-block w-100" alt="Armonización Orofacial">
+                    <div class="carousel-caption">
+                        <div class="hero-text">
+                            <h1 class="animate__animated animate__fadeInLeft">ARMONIZACIÓN OROFACIAL</h1>
+                            <h2 class="animate__animated animate__fadeInLeft animate__delay-1s">EQUILIBRIO Y BELLEZA PARA TU ROSTRO</h2>
+                            <p class="animate__animated animate__fadeInLeft animate__delay-2s">Transformamos sonrisas y realzamos la belleza facial con técnicas mínimamente invasivas y resultados naturales.</p>
+                            <!-- <a href="pages/armonizacion.html" class="btn btn-light mt-3">Conocer Más</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/hero-bg2.jpg" class="d-block w-100" alt="Estética Dental">
+                    <div class="carousel-caption">
+                        <div class="hero-text">
+                            <h1 class="animate__animated animate__fadeInLeft">ESTÉTICA DENTAL</h1>
+                            <h2 class="animate__animated animate__fadeInLeft animate__delay-1s">SONRISAS QUE TRANSFORMAN VIDAS</h2>
+                            <p class="animate__animated animate__fadeInLeft animate__delay-2s">Diseñamos sonrisas personalizadas que combinan función, estética y naturalidad para realzar su belleza.</p>
+                            <a href="pages/servicios.html" class="btn btn-light mt-3 animate__animated animate__fadeInUp animate__delay-3s">Descubrir Tratamientos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </section>
+
+        <!-- Sección Quiénes Somos -->
+        <section id="about" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Dra. Nadia Arroyo</h2>
+                        <p>Especialista en Armonización Orofacial y Estética Dental transformando sonrisas y mejorando la estética facial de sus pacientes.</p>
+                        <p>Nuestra filosofía combina ciencia, arte y tecnología de vanguardia para ofrecer tratamientos personalizados que realzan la belleza natural y mejoran la función, siempre con resultados armónicos y naturales.</p>
+                        <a href="pages/servicios.html" class="btn btn-primary mt-3">Conocer Más</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/doctor-profile.jpg" alt="Dra. Nadia Arroyo" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Servicios -->
+        <section id="services" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Nuestros Servicios</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="img/service1.jpg" class="card-img-top" alt="Armonización Orofacial">
+                            <div class="card-body">
+                                <h5 class="card-title">Armonización Orofacial</h5>
+                                <p class="card-text">Técnicas mínimamente invasivas que equilibran y realzan las características faciales para una apariencia más armónica y rejuvenecida.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="img/service2.jpg" class="card-img-top" alt="Estética Dental">
+                            <div class="card-body">
+                                <h5 class="card-title">Estética Dental</h5>
+                                <p class="card-text">Diseño de sonrisa personalizado con carillas, blanqueamiento, restauraciones estéticas y rehabilitación completa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="img/service3.jpg" class="card-img-top" alt="Tratamientos Especializados">
+                            <div class="card-body">
+                                <h5 class="card-title">Tratamientos Especializados</h5>
+                                <p class="card-text">Soluciones avanzadas para casos complejos que requieren un enfoque multidisciplinario y personalizado.</p>
+                                <a href="pages/servicios.html" class="btn btn-outline-primary mt-2">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Por Qué Elegirnos -->
+        <section id="why-us" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Por Qué Elegirnos</h2>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100 text-center border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <i class="fas fa-certificate fa-3x text-primary"></i>
+                                </div>
+                                <h4>Experiencia</h4>
+                                <p>Más de 5 años transformando sonrisas y rostros con técnicas avanzadas y resultados comprobados.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100 text-center border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <i class="fas fa-microscope fa-3x text-primary"></i>
+                                </div>
+                                <h4>Tecnología</h4>
+                                <p>Equipamiento para diagnósticos precisos y tratamientos más efectivos y cómodos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100 text-center border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <i class="fas fa-user-md fa-3x text-primary"></i>
+                                </div>
+                                <h4>Personalización</h4>
+                                <p>Cada tratamiento se diseña específicamente para sus necesidades, características y expectativas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100 text-center border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <i class="fas fa-heart fa-3x text-primary"></i>
+                                </div>
+                                <h4>Atención Integral</h4>
+                                <p>Acompañamiento continuo antes, durante y después de los procedimientos para garantizar su satisfacción.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonios -->
+        <section id="testimonials" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Lo Que Dicen Nuestros Pacientes</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="testimonial-img me-3">
+                                        <img src="img/testimonial1.jpg" alt="Testimonio 1" class="rounded-circle" width="60">
+                                    </div>
+                                    <div>
+                                        <h5 class="card-title mb-0">Sofía Rodríguez</h5>
+                                        <small class="text-muted">Armonización Orofacial</small>
+                                    </div>
+                                </div>
+                                <p class="card-text">"Mi experiencia con la Dra. Arroyo fue excepcional. El tratamiento de armonización transformó mi rostro de forma natural, respetando mis rasgos pero logrando el equilibrio que buscaba. Agradezco su profesionalismo y atención personalizada."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="testimonial-img me-3">
+                                        <img src="img/testimonial2.jpg" alt="Testimonio 2" class="rounded-circle" width="60">
+                                    </div>
+                                    <div>
+                                        <h5 class="card-title mb-0">Carlos Méndez</h5>
+                                        <small class="text-muted">Estética Dental</small>
+                                    </div>
+                                </div>
+                                <p class="card-text">"Nunca pensé que una sonrisa pudiera cambiar tanto mi vida. Las carillas que me realizó la Dra. Nadia no solo mejoraron mi apariencia, sino también mi confianza. El resultado superó todas mis expectativas."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="testimonial-img me-3">
+                                        <img src="img/testimonial3.jpg" alt="Testimonio 3" class="rounded-circle" width="60">
+                                    </div>
+                                    <div>
+                                        <h5 class="card-title mb-0">Laura Jiménez</h5>
+                                        <small class="text-muted">Rehabilitación Completa</small>
+                                    </div>
+                                </div>
+                                <p class="card-text">"Mi caso era complejo y requería varios procedimientos. La Dra. Arroyo diseñó un plan personalizado que resolvió mis problemas funcionales y estéticos. Su equipo fue atento durante todo el proceso, haciendo cada visita confortable."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="pages/testimonios.html" class="btn btn-outline-primary">Ver Más Testimonios</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Llamada a la Acción -->
+        <section id="cta" class="py-5 text-center text-white" style="background-color: var(--primary-color);">
+            <div class="container">
+                <h2>Comience Su Transformación Hoy</h2>
+                <p>La sonrisa y apariencia que siempre ha deseado está al alcance de una consulta. Contáctenos para programar su valoración personalizada.</p>
+                <div class="row justify-content-center mt-4">
+                    <div class="col-md-3 mb-3">
+                        <a href="https://wa.me/521234567890?text=Hola,%20me%20gustaría%20agendar%20una%20cita%20con%20la%20Dra.%20Nadia%20Arroyo" target="_blank" class="btn btn-light btn-lg w-100"><i class="fab fa-whatsapp me-2"></i>Agendar por WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Dra. Nadia Arroyo</h5>
+                    <p>Especialista en Armonización Orofacial y Estética Dental</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <p><i class="fas fa-envelope me-2"></i> contacto@dranadiarroyo.com</p>
+                    <p><i class="fas fa-phone me-2"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> Av. Principal 123, Ciudad</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/people/Dra-Nadia-Arroyo/100077108993128/?mibextid=wwXIfr&rdid=MNNgBHzgMtKFLyXL&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16RsMQWVCd%2F%3Fmibextid%3DwwXIfr" target="_blank" class="me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/dra_nadiaarroyo/" target="_blank" class="me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/dranadiarroyo" target="_blank" class="me-2"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2023 Dra. Nadia Arroyo. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle con Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS personalizado -->
+    <script src="js/script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,10 @@
+title: Dra. Nadia Arroyo
+description: Especialista en Armonización Orofacial y Estética Dental
+baseurl: "/Dra.NadiaArroyo"
+url: ""
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed 
